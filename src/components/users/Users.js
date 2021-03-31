@@ -8,6 +8,7 @@ const Users = () => {
 
   useEffect(() => {
     githubContext.getUsers();
+    // eslint-disable-next-line
   }, []);
 
   const { users, loading } = githubContext;
